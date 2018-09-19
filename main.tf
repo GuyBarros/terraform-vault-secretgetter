@@ -5,8 +5,3 @@ module "vault-secretgetter"{
  vaulthost = "${var.vaulthost}"
  version = "v.0.0.2"
 }
-
-
-output "mysecret" {
- value = "${module.vault-secretgetter.mysecret}"
-}
