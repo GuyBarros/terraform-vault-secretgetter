@@ -3,6 +3,7 @@ module "vault-secretgetter"{
     token = "${var.token}"
 secretpath = "${var.secretpath}" 
 vaulthost = "${var.vaulthost}"
+    version = "0.0.1"
 }
 
 
