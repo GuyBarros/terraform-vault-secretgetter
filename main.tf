@@ -1,5 +1,5 @@
 provider "vault" {
- version ~= 1.1.3
+ version = "~=v1.1.3"
 }
 module "vault-secretgetter"{
     source = "./vault-secretgetter"
