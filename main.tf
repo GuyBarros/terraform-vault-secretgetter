@@ -1,7 +1,6 @@
 module "vault-secretgetter"{
- source = "./vault-secretgetter"
+ source = "./modules"
  token = "${var.token}"
  secretpath = "${var.secretpath}" 
  vaulthost = "${var.vaulthost}"
- version = "v.0.0.2"
 }
