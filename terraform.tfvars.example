@@ -1,0 +1,3 @@
+token = "AbcdE"
+secretpath = "secret/hello"
+vaulthost = "https://vaultserver:8200"
